@@ -1,0 +1,71 @@
+https://www.youtube.com/watch?v=RqQ1d1qEWlE&t=6464s
+js: es un lenguaje que trabaja dentro del Navegador
+1995 Napscape lo creo para que el usuario interactue mas con el usuario, darle funcionalidad 
+visual basic: creado por Microsoft
+
+pongo esto en mi navegador para poder trabajar con JS
+about:blank
+//DOM
+
+
+HERRAMIENTAS PARA DESARROLLADORES
+sources: podemos ver los archivos de los que esta compuesto un sitio web
+Network: podemos ver  cuanto demora en cargar nuestra pagina//ANALIZAR LA CARGA
+Performance: Podemos analizar el rendimiento
+Memory: comprobar cuanta memoria consume
+Console: es la manera en la cual vamos a comunicarnos con el navegador a travez de JS
+>console.log ("Hello world"); //con el punto le digo que tiene que hacer y log seria el metodo
+>console.error("Mi error customizado");//Ejemplo de errror
+
+
+document.write("<h1>Hello World<h1>");
+//object clave y valor
+
+//tipos de datos
+"Hello World"// string
+'Hello World'//string
+
+console.log('')
+//boolean
+true
+false
+
+//array
+['joe','ryan','martha']
+[1,2,3]
+[true,false,true,false]
+
+//objeto//object
+
+
+{
+    "username": 'ryan',
+    "score": 70.4,
+    "hours": 14,
+    "proffesional": true
+friends :['Nelson','Matheo','Anahi']
+}
+
+{
+    "username": 'joe',
+    "score": 0.4,
+    "hours": 1,
+    "proffesional": false
+}
+
+console.log('this is a string');
+console.log({"username":"ryan","score":70.4});
+
+**************
+Las variables pueden empezar con $ o _
+//variables/bloques/alcance de las variables
+var nameuser = "john";
+let lastname = "carter"
+
+//variables
+var nameuser = "john";
+let lastname = "carter";
+
+nameuser = 'pepe';
+
+console.log(nameuser)//muestra pepe
