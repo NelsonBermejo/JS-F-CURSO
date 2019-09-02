@@ -1,0 +1,157 @@
+CONCATENAR
+
+let name = 'john';
+let lastname = 'Carter';
+
+let completeName = name + ' ' + lastname;
+
+console.log(completeName);
+************************************
+CORRECTA O INCORRECATA
+
+let passwordDB = 'pepe123';
+
+
+let input = 'asdasdasdsadsadadasdsad';
+
+let result = input == passwordDB;
+
+console.log(result);
+
+********************************
+CONTROL DE FLUJO
+
+let passwordDB = 'pepe123';
+
+
+let input = 'pepe123';
+
+let result = input == passwordDB;
+
+if (result == true){
+    console.log('Login correcto');
+}
+
+if(result == false){
+    console.log('Login incorrecto');
+}
+
+***************CONTROL DE FLUJO 2****************
+let passwordDB = 'pepe123';
+
+
+let input = 'pepe123';
+
+let result = input == passwordDB;
+
+if (result == true){
+    console.log('Login correcto');
+} else {
+    console.log('Contraseña incorrecta');
+}
+
+*************control de flujo 3********************************
+let score = 70;
+
+if (score > 30) {
+    console.log('You need to practice more');
+} else if(score > 15) {
+    console.log('Estas mejorando');
+}
+else {
+    console.log('You need to follow this tutorial');
+}
+
+
+***************CONTROL DE FLUJO SWITCH*********************
+let typeCard = 'Debid Card';
+
+switch(typeCard) {
+    case 'Debid Card':
+        console.log('This is a debid card');
+        break;
+    case 'Credit Card':
+        console.log('This is a credit card');
+        break;
+    default:
+        console.log('No Card');
+}
+
+**************BUCLES***********************************
+ME IMPRIME POR CONSOLA LA CANTIDAD DE VECES QUE SE EJECUTA HELLO WORLD
+let count = 50;
+
+while(count > 0) {//condiciones
+    console.log('Hello World');
+    count = count -1;
+}
+************muestra los numeros*******************************
+let count = 50;
+
+while(count > 0) {
+    console.log(count);
+    count = count -1;
+}
+*******************************************************
+let count = 0;
+
+while(count <= 50) {
+    console.log(count);
+    count = count +1;//count++//es lo mismo
+}
+***************vemos los arreglos***************************
+let names = ['ryan','joe','john'];
+
+console.log(names);
+
+************mostrar nombre por indice del arreglo****************
+let names = ['ryan','joe','john'];
+
+console.log(names[0]);
+********************LONGITUD DEL ARREGLO ES DECIR LA CANTIDAD DE NOMBRES***********
+let names = ['ryan','joe','john'];
+
+console.log(names.length);
+*******************************recorremos los elementos************************************
+utilizamos el i como una referencia a las posiciones
+let names = ['ryan','joe','john'];
+
+for(let i = 0; i < names.length; i++){
+    console.log(names[i]);
+}
+************************************************************************************
+FOR: la razon por la cual le restamos uno es porque no tenemos algo en la posicion 3, despues decimos que sea mayor o igual a cero porque existe la posicion cero
+let names = ['ryan','joe','john'];
+
+for(let i = names.length - 1; i >= 0; i--){
+    console.log(names[i]);
+}
+**********************OTRO EJEMPLO****************
+let names = [1, 2, 3];
+
+for(let i = names.length - 1; i >= 0; i--){
+    console.log(names[i]);
+}
+
+******************FUNCIONES********************
+function greeting(){
+    console.log('Hello');
+}
+
+greeting();
+
+***************saluda por Name*********************************
+function greeting(name){
+    console.log(name);
+    console.log('Hello');
+}
+let name = 'Nelson'
+greeting(name);
+*********************saluda 2********************************++
+function greeting(personName){
+
+    console.log('Hello ' + personName);
+}
+let name = 'Nelson'
+greeting(name);
+******************************
